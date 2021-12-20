@@ -63,7 +63,6 @@ console.log('---- 3. While loop ----');
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
 let i = 0;
-// let arrayLength = stars.length;
 while(i < 5 ) {
   console.log('this is a star', stars[i]);
    i++;
@@ -72,5 +71,17 @@ while(i < 5 ) {
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 
+let index = 0
+
+while( index < 6 ){
+  console.log('counting to five!!!', index );
+  index++;
+}
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
-console.log('count backwards from 10 to 5');
+// console.log('count backwards from 10 to 5');
+
+let idex = 10
+while( idex > 4 ){
+  console.log('THE FINAL COUNTDOWN!!!', idex );
+  idex--;
+}
